@@ -1,0 +1,393 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+#title{
+    width:99%;
+    height:85px;
+    background-color:#8f86c6;
+    border-radius:5px;
+    vertical-align:middle;
+    position:relative;
+    padding-left:5px;
+    top:-25px;
+}
+#back{
+    width:100px;
+    height:55px;
+    background-color:#33ff33;
+    border-radius:5px;
+    position:absolute;
+    top:15px;
+    right:50px;
+}
+#block{
+    width:99%;
+    height:300px;
+    background-color:#80aaff;
+    border-radius:5px;
+    position:relative;
+    top:-25px;
+}
+#smallblock{
+    width:99%;
+    height:125px;
+    background-color:#80aaff;
+    border-radius:5px;
+    position:relative;
+    top:-25px;
+}
+#bigblock{
+    width:99%;
+    height:450px;
+    background-color:#80aaff;
+    border-radius:5px;
+    position:relative;
+    top:-25px;
+}
+#titletext{
+    color:white;
+    font-size:64px;
+}
+/*#titlearch{
+    color:white;
+    font-size:32px;
+    position:relative;
+    top:-85px;
+    left:200px
+}*/
+.ina{
+    font-size:32px;
+    text-align:center;
+}
+.tws{
+    font-size:20px;
+    color:white;
+}
+
+#lefttoparch{
+    height:175px;
+    width:225px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-image:url("pics/arch2.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#righttoparch{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height:145px;
+    width:171px;
+    background-image:url("pics/rock.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#rightbottomarch{
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    height:85px;
+    width:126px;
+    background-image:url("pics/floating_block.gif");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#formarch{
+    height:250px;
+    width:557px;
+    position:absolute;
+    background-image:url("pics/arch_formula.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    left:30%;
+    bottom:25px;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#lefttophelio{
+    height:125px;
+    width:125px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background-image:url("pics/helio1.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#righttophelio{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height:105px;
+    width:124px;
+    background-image:url("pics/helio2.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#rightbottomhelio{
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    height:85px;
+    width:72px;
+    background-image:url("pics/coper.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#lefttoppisa{
+    height:112px;
+    width:150px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background-image:url("pics/featherdrop.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#righttoppisa{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height:105px;
+    width:124px;
+    background-image:url("pics/pisa1.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#rightbottompisa{
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    height:85px;
+    width:72px;
+    background-image:url("pics/gali1.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#formpisa{
+    height:250px;
+    width:557px;
+    position:absolute;
+    background-image:url("pics/pisa_form.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    left:30%;
+    bottom:25px;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#lefttopmagn{
+    height:120px;
+    width:147px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-image:url("pics/magn1.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#righttopmagn{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height:120px;
+    width:110px;
+    background-image:url("pics/magn2.gif");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#rightbottommagn{
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    height:100px;
+    width:200px;
+    background-image:url("pics/magn3.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#lefttopinert{
+    height:150px;
+    width:180px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-image:url("pics/inert1.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#righttopinert{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height:160px;
+    width:220px;
+    background-image:url("pics/hamster.gif");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:5px solid blue;
+    border-radius:5px;
+
+}
+#forminert{
+    height:225px;
+    width:557px;
+    position:absolute;
+    background-image:url("pics/inert_form.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    left:30%;
+    bottom:25px;
+    border: 5px solid blue;
+    border-radius:5px;
+
+}
+#leftbottominert{
+    height:185px;
+    width:250px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-image:url("pics/chair.gif");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border-radius:5px;
+    
+}
+#lefttopsnell{
+    height:160px;
+    width:90px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-image:url("pics/snell.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+}
+#righttopsnell{
+    height:160px;
+    width:215px;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    background-image:url("pics/snell2.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    border: 5px solid blue;
+    border-radius:5px;
+}
+#snellform{
+    height:225px;
+    width:557px;
+    position:absolute;
+    background-image:url("pics/snell_form.svg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    left:30%;
+    bottom:25px;
+    border-radius:5px;
+}
+#snelldemo{
+    height:225px;
+    width:300px;
+    position:absolute;
+    background-image:url("pics/snellslaw.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    right:40%;
+    border-radius:5px;
+    border: 5px solid blue;
+}
+#righttoparch:hover{
+    background-image:url("pics/youtube.png");
+}
+#rightbottomarch:hover{
+    background-image:url("pics/youtube.png");
+}
+#righttophelio:hover{
+    background-image:url("pics/youtube.png");
+}
+#lefttoppisa:hover{
+    background-image:url("pics/youtube.png");
+}
+#rightbottompisa:hover{
+    background-image:url("pics/youtube.png");
+}
+#righttopmagn:hover{
+    background-image:url("pics/youtube.png");
+}
+#rightbottommagn:hover{
+    background-image:url("pics/youtube.png");
+}
+#righttopinert:hover{
+    background-image:url("pics/youtube.png");
+}
+#righttopsnell:hover{
+    background-image:url("pics/youtube.png");
+}
+a{
+    text-decoration:none;
+    color:blue;
+}
+a:hover{
+    color:red;
+}
+span{
+    text-decoration:underline;
+}
+h2{
+    color:white;
+    padding-left:5px;
+}
+h4{
+    position:relative;
+    color:white;
+    text-align:center;
+    top:-10px;
+    font-weight:900;
+}
